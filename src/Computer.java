@@ -9,11 +9,11 @@ public class Computer implements Player {
       return Choice.STEN;
     } else if (rand == 1) {
       return Choice.PAPIR;
-    } else {
+    } else
       return Choice.SAKS;
-    }
   }
-}
+  }
+
 
 
 

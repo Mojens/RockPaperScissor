@@ -5,11 +5,12 @@ public class Human implements Player{
   public Enum takeTurn() {
     Scanner input = new Scanner(System.in);
     String playerInput = input.nextLine();
+
     if (playerInput.equalsIgnoreCase("Sten")){
       return Choice.STEN;
     }else if (playerInput.equalsIgnoreCase("Papir")){
       return Choice.PAPIR;
     }else
-      return Choice.PAPIR;
+      return Choice.SAKS;
   }
 }
