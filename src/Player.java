@@ -1,3 +1,3 @@
 public interface Player {
-  public Enum takeTurn();
+  public Enum takeTurn(); //der er flere classes der skal bruge denne metode
 }
